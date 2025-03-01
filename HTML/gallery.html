@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link content="quinn" rel="author">
+    <link href="../CSS/style.css" rel="stylesheet">
+    <script src="../JS/scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta content="test site" name="description">
+    <title>quinn site quinn site</title>
+</head>
+<body>
+<nav class="navbar">
+    <a href="../index.html">Home</a>
+    <a href="lipsum.org">Placeholder</a>
+    <a class="active" href="../HTML/gallery.html">Gallery</a>
+    <a href="lipsum.org">Placeholder</a>
+</nav>
+<header class="page-header">
+    <h1>Gallery</h1>
+    <h2>mostly gposes lol</h2>
+</header>
+<main>
+    <div class="box-container">
+        <div class="box">
+            <img alt="balls" onclick="openModal(this)" src="../Images/ffxiv_dx11%202025-02-05%2001-53-55.png">
+        </div>
+        <div class="box">
+            <img alt="balls" onclick="openModal(this)" src="../Images/ffxiv_dx11%202025-02-10%2000-19-52.png">
+
+        </div>
+    </div>
+    <div class="modal" id="imgModal" onclick="closeModal()">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+</main>
+</body>
+</html>
