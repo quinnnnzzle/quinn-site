@@ -98,10 +98,11 @@ body {
     cursor: pointer;
     transition: transform 0.3s ease;
     object-fit: cover;
+    border: 3px solid var(--secondary-color);
 }
 
 .box img:hover {
-    transform: scale(1.05);
+    transform: scale(1.01);
 }
 
 /* --------------------- Modal Styles for Image Preview --------------------- */
