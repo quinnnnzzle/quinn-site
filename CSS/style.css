@@ -89,13 +89,17 @@ body {
     overflow: hidden;
     break-inside: avoid;
     text-align: center;
-    width: 100%;
     max-width: 30%;
     min-width: 15%;
     font-size: 1rem;
 }
 .box > h3 {
     font-size: 1.8rem;
+}
+.box > a {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    font-weight: bold;
 }
 
 .box:hover {
