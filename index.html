@@ -2,13 +2,32 @@
 <html lang="en">
 <head>
     <link rel="author" content="quinn">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="JS/scripts.js"></script>
     <meta charset="UTF-8">
     <meta name="description" content="test site">
     <title>quinn site quinn site</title>
 </head>
 <body>
-<header>
-test lol
+<nav class="navbar">
+<a href="index.html" class="active">Home</a>
+<a href="lipsum.org">Placeholder</a>
+<a href="lipsum.org">Placeholder</a>
+<a href="lipsum.org">Placeholder</a>
+</nav>
+<header class="page-header">
+    <h1>Landing Page</h1>
 </header>
+<main>
+    <div class="box-container">
+        <div class="box"><p>placeholder text lalalalalalalala</p></div>
+        <div class="box"><img src="Images/ffxiv_dx11%202025-02-10%2000-19-52.png" alt="Image 2" onclick="openModal(this)"></div>
+
+    </div>
+    <div id="imgModal" class="modal" onclick="closeModal()">
+        <span class="close-modal" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg">
+    </div>
+</main>
 </body>
 </html>
